@@ -10,6 +10,12 @@ the URL query.
 Example URL:
 - ?token={ECOMM_TOKEN} --> For production
 - ?token={ECOMM_TOKEN}&environment=sandbox --> for sandbox
+
+<br />
+
+Live demo here [https://yauri-io.github.io/clover-ecomm-iframe?token={YOUR_TOKEN_HERE}&environment=sandbox](https://yauri-io.github.io/clover-ecomm-iframe?token={YOUR_TOKEN_HERE}&environment=sandbox)
+<br />
+Please use the correct token, otherwise Clover will not return payment token.
 ---
 #### Note
 The `environment` only accepts value `sandbox` or `production` (default, no need to set)
